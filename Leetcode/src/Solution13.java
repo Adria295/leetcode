@@ -22,7 +22,7 @@ public class Solution13 {
                     ans += 5;
                     continue;
                 case 'X':
-                    if ((i+1)<n()&&'L'==s.charAt(i+1)) {
+                    if ((i+1)<n&&'L'==s.charAt(i+1)) {
                         ans += 40;
                         i++;
                         continue;
